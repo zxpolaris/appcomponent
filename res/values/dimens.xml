@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 800x480 (Default) -->
+<resources>
+
+    <!-- Action Bar -->
+    <dimen name="actionbar_height">49dp</dimen>
+    <dimen name="actionbar_btn_height">23dp</dimen>
+    <dimen name="actionbar_title_text_size">20dp</dimen>
+    <dimen name="actionbar_btn_text_size">16dp</dimen>
+
+    <!-- 按钮大小 -->
+    <dimen name="btn_more_width">56.5dp</dimen>
+    <dimen name="btn_more_height">37.5dp</dimen>
+    <dimen name="btn_back_width">13.5dp</dimen>
+    <dimen name="btn_back_height">24dp</dimen>
+
+</resources>

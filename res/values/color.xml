@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="actionbar_bg_color">#f86c41</color>
+    <color name="xlistview_text_color">#3e3a39</color>
+    <color name="actionbar_title_color">#ffffff</color>
+    <color name="actionbar_btn_txt_color">#ffffff</color>
+    <color name="actionbar_btn_bg_color_nor">#c19d6f</color>
+    <color name="actionbar_btn_bg_color_press">#55c19d6f</color>
+
+</resources>

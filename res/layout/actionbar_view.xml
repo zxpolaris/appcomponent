@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_bar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/actionbar_height"
+    android:background="@color/actionbar_bg_color"
+    android:minHeight="@dimen/actionbar_height" >
+
+    <Button
+        android:id="@+id/btn_left"
+        style="@style/ActionbarBtnStyle"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/img_btn_left"
+        style="@style/ActionbarImgBtnStyle"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/app_name"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:maxWidth="150dp"
+        android:singleLine="true"
+        android:textColor="@color/actionbar_title_color"
+        android:textSize="@dimen/actionbar_title_text_size" />
+
+    <Button
+        android:id="@+id/btn_right"
+        style="@style/ActionbarBtnStyle"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/img_btn_right"
+        style="@style/ActionbarImgBtnStyle"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/app_name"
+        android:visibility="gone" />
+
+</RelativeLayout>
